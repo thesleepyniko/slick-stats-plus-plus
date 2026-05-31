@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" \
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!-- Contains a unique string that identifies your daemon to launchd.
+    This key is required. -->
+    <key>Label</key>
+    <string>com.niko.slickstatsplusplus</string>
+
+    <!-- Contains the arguments [to exec()] used to launch your daemon.
+    This key is required.  -->
+    <key>ProgramArguments</key>
+    <array>
+      <string>/bin/bash</string>
+      <string>/Users/jared/git/gocongress-backups/backup.sh</string>
+    </array>
+    
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+</dict>
+</plist>

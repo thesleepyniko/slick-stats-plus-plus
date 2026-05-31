@@ -17,19 +17,8 @@
       "always_online": true
     },
     "shortcuts": [
-      {
-        "name": "Run sample shortcut",
-        "type": "global",
-        "callback_id": "sample_shortcut_id",
-        "description": "Runs a sample shortcut"
-      }
     ],
     "slash_commands": [
-      {
-        "command": "/sample-command",
-        "description": "Runs a sample command",
-        "should_escape": false
-      }
     ]
   },
   "oauth_config": {

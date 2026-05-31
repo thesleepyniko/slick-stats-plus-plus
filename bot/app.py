@@ -31,7 +31,7 @@ def exchange_token(exchangeReq: exchangeTokenRequest):
         "https://slack.com/api/oauth.v2.access",
         data={
             "code": code,
-            "client_id": ...,
+            "client_id": "9991336848048.11245198089317",
             "client_secret": ...
         }
     )

@@ -21,4 +21,5 @@ fi
 
 echo "Dropping script at /tmp/slickstats++ for oauth..."
 
+which python
 # drop a simple script to do oauth (located at /scripts/oauth/main.py on github), then wait for it to complete
